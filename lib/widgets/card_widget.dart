@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-import '../input_page.dart';
+import '../constants/constants.dart';
 
 class CardWidget extends StatelessWidget {
   final IconData cardIcon;
@@ -21,10 +21,7 @@ class CardWidget extends StatelessWidget {
         ),
         Text(
           displayText,
-          style: TextStyle(
-            fontSize: 18.0,
-            color: textColor,
-          ),
+          style: textStyle,
         ),
       ],
     );
