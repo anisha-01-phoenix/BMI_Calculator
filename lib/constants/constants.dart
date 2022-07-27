@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const bottomContainerHeight = 70.0;
+const bottomContainerHeight = 60.0;
 const cardColor = Color(0xFF1D1E33);
 const textColor = Color(0xFF8D8E98);
 const inactiveCardColor = Color(0xFF111328);
